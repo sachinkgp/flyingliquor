@@ -1,0 +1,27 @@
+.card{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px 16px 20px 16px;
+    background:rgba(250, 250, 250, 0.7);
+    /* background-color: rgba(250, 250, 250, 0.7); */
+    border-radius: 20px;
+    position: relative;
+    border-color: black;
+}
+
+.card input{
+    max-width: 70%;
+}
+
+.card:hover{
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+    color: black;
+    border-color: black;
+}
